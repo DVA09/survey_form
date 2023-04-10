@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Customers Survey Form</title>
+    <link rel="stylesheet" href="survey_form.css" />
+  </head>
+  <body>
+    <div class="survey">
+      <h1 id="title">Customer Survey Form</h1>
+      <p id="description">
+        Please take a few minutes to fill out this satisfaction survey with our
+        products and services.
+      </p>
+      <form id="survey-form" action="https://servey-form.freecodecamp.org">
+        <fieldset>
+          <label id="name-label"
+            >Name:
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder=" Enter your name"
+              required
+          /></label>
+          <label id="email-label"
+            >Email:
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder=" Enter your Email"
+              required
+          /></label>
+          <label id="number-label"
+            >Age (optional):
+            <input
+              id="number"
+              type="number"
+              name="number"
+              min="18"
+              max="100"
+              placeholder=" Your age"
+          /></label>
+          <label>Gender:</label>
+          <label
+            ><input type="radio" value="1" name="account-type" class="inline" />
+            Male</label
+          >
+          <label
+            ><input type="radio" value="2" name="account-type" class="inline" />
+            Female</label
+          >
+          <label
+            ><input type="radio" value="3" name="account-type" class="inline" />
+            N/A</label
+          >
+        </fieldset>
+        <fieldset>
+          <label
+            >How often do you shop in our store?
+            <select name="referrer">
+              <option value="">(select one)</option>
+              <option value="1">1-2 times a month</option>
+              <option value="2">3-4 times a month</option>
+              <option value="3">5-6 times a month</option>
+              <option value="4">over 6 times a month</option>
+            </select>
+          </label>
+          <label
+            >In which departments of the store do you most often buy goods or
+            services?
+            <select id="dropdown" name="referrer">
+              <option value="">(select one)</option>
+              <option value="1">Building materials</option>
+              <option value="2">Electricity</option>
+              <option value="3">Tools</option>
+              <option value="4">Tiling</option>
+              <option value="5">Plumbing</option>
+              <option value="6">Garden</option>
+              <option value="7">Kitchen</option>
+              <option value="8">Wood and Panels</option>
+              <option value="9">Decor</option>
+            </select>
+          </label>
+        </fieldset>
+        <fieldset>
+          <label
+            >Overall, how satisfied are you with the product or service?</label
+          >
+          <label
+            ><input
+              type="checkbox"
+              value="1"
+              name="value 1"
+              class="inline"
+              required
+            />
+            <a>Very satisfied</a></label
+          >
+          <label
+            ><input
+              type="checkbox"
+              value="2"
+              name="value 2"
+              class="inline"
+              required
+            />
+            <a>Satisfied</a></label
+          >
+          <label
+            ><input
+              type="checkbox"
+              value="3"
+              name="value 3"
+              class="inline"
+              required
+            />
+            <a>Neutral</a></label
+          >
+          <label
+            ><input
+              type="checkbox"
+              value="4"
+              name="value 4"
+              class="inline"
+              required
+            />
+            <a>Unsatisfied</a></label
+          >
+          <label
+            ><input
+              type="checkbox"
+              value="5"
+              name="value 5"
+              class="inline"
+              required
+            />
+            <a>Very unsatisfied</a></label
+          >
+          <label
+            ><input
+              type="checkbox"
+              value="6"
+              name="value 6"
+              class="inline"
+              required
+            />
+            <a>N/A</a></label
+          >
+          <label>Did our product or service meet your expectations?</label>
+          <label
+            ><input type="radio" value="1" name="account-type" class="inline" />
+            Yes</label
+          >
+          <label
+            ><input type="radio" value="2" name="account-type" class="inline" />
+            No</label
+          >
+          <label
+            >Please explain:
+            <textarea
+              name="bio"
+              rows="3"
+              cols="30"
+              placeholder="Type here..."
+            ></textarea>
+          </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
