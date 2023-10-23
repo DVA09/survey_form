@@ -1,5 +1,4 @@
-# survey_form
-Customer Survey Form
+# Customer Survey Form
 
 This is one of the required projects to earn freeCodeCamp certification.
 A survey form to collect data from users.
@@ -23,6 +22,4 @@ Inside the form element, you can select several fields from a series of checkbox
 Inside the form element, you are presented with a textarea for additional comments
 Inside the form element, you are presented with a button with id of submit to submit all the inputs
 
-![image](https://github.com/DVA09/survey_form/assets/112496696/fab4e384-f5cf-4291-b66d-d9c17ec95540)
-
-![image](https://github.com/DVA09/survey_form/assets/112496696/1b1c65d5-ed17-4e87-8e41-ae33e1e73140)
+![image](https://github.com/DVA09/survey_form/assets/112496696/63a34c5a-7170-44c0-9d2e-df40db1dc3f9)
