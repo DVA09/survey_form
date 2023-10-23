@@ -22,4 +22,4 @@ User Stories:
 15. Inside the form element, you are presented with a textarea for additional comments
 16. Inside the form element, you are presented with a button with id of submit to submit all the inputs
 
-![image](https://github.com/DVA09/survey_form/assets/112496696/db1de7b3-4c6d-4028-8837-c1f0b78e9eba)
+![survey form](https://github.com/DVA09/survey_form/assets/112496696/db1de7b3-4c6d-4028-8837-c1f0b78e9eba)
